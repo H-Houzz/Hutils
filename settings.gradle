@@ -1,0 +1,6 @@
+include ':PictureSelector'
+include ':ucrop'
+include ':updateapp'
+include ':utils'
+include ':app'
+rootProject.name = "Hutils"
