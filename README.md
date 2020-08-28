@@ -15,10 +15,8 @@
 
     Step 2. Add the dependency:(Tag:current version 1.0.1)
 
-    eg:implementation 'com.github.H-Houzz:Hutils:1.0.1'
-
     	dependencies {
-    	        implementation 'com.github.H-Houzz:Hutils:Tag'
+    	        implementation 'com.github.H-Houzz:Hutils:1.0.2'
     	}
 ```
 
