@@ -13,7 +13,7 @@
     		}
     	}
 
-    Step 2. Add the dependency:(Tag:current version 1.0.1)
+    Step 2. Add the dependency:
 
     	dependencies {
     	        implementation 'com.github.H-Houzz:Hutils:1.0.2'
