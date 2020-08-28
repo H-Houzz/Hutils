@@ -1,9 +1,7 @@
 工具类集合
 ## 使用说明
 ### 1.集成
-```
-    To get a Git project into your build:
-
+```sh 
     Step 1. Add the JitPack repository to your build file
 
     Add it in your root build.gradle at the end of repositories:
@@ -22,8 +20,8 @@
     	dependencies {
     	        implementation 'com.github.H-Houzz:Hutils:Tag'
     	}
-
 ```
+
 ### API
 #### 1.pictureselector 
 https://github.com/H-Houzz/Hutils/blob/master/readme/pictureselector.md
