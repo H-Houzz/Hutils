@@ -1,18 +1,38 @@
 工具类集合
-### 1.BaseAdapter
-##### 原址:https://www.jianshu.com/p/b343fcff51b0
+## 使用说明
+### 1.集成
+    To get a Git project into your build:
+    Step 1. Add the JitPack repository to your build file
+    Add it in your root build.gradle at the end of repositories:
+    	allprojects {
+    		repositories {
+    			...
+    			maven { url 'https://jitpack.io' }
+    		}
+    	}
 
-### 2.RichText
-##### 原址:https://github.com/zzhoujay/RichText
+    Step 2. Add the dependency:(Tag:current version 1.0.1)
+    eg:implementation 'com.github.H-Houzz:Hutils:1.0.1'
+    	dependencies {
+    	        implementation 'com.github.H-Houzz:Hutils:Tag'
+    	}
+### API
+#### 1.BaseAdapter https://github.com/H-Houzz/Hutils/blob/master/readme/pictureselector.md
+#### 2.subutils    https://github.com/H-Houzz/Hutils/blob/master/readme/subutils.md
+#### 3.updateapp   https://github.com/H-Houzz/Hutils/blob/master/readme/updateapp.md
+#### 4.utilscode   https://github.com/H-Houzz/Hutils/blob/master/readme/utilscode.md
 
-### 3.QMUI
-##### 原址:https://github.com/Tencent/QMUI_Android
 
-### 4.pictureSelector
-##### 原址:https://github.com/LuckSiege/PictureSelector
-
-### 5.updateAPP
-##### 原址:https://github.com/teprinciple/UpdateAppUtils
-
-### 6.utils
-##### 参考:https://github.com/Blankj/AndroidUtilCode
+### 引用
+#### 1.BaseAdapter
+###### 原址:https://www.jianshu.com/p/b343fcff51b0
+#### 2.RichText
+###### 原址:https://github.com/zzhoujay/RichText
+#### 3.QMUI
+###### 原址:https://github.com/Tencent/QMUI_Android
+#### 4.pictureSelector
+###### 原址:https://github.com/LuckSiege/PictureSelector
+#### 5.updateAPP
+###### 原址:https://github.com/teprinciple/UpdateAppUtils
+#### 6.utils
+###### 参考:https://github.com/Blankj/AndroidUtilCode
