@@ -11,6 +11,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.Environment;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
@@ -816,6 +817,26 @@ public final class AppUtils {
                     "\n    app v code: " + getVersionCode() +
                     "\n    is system: " + isSystem() +
                     "\n}";
+        }
+    }
+
+    /**
+     * get sd Dir
+     * @param context
+     * @return
+     */
+    public static String getAppStorageDir(Context context) {
+        if (context == null) {
+            return null;
+        } else {
+            int res = context.checkCallingOrSelfPermission("android.permission.WRITE_EXTERNAL_STORAGE");
+            if (res == 0) {
+                File appDir = new File(Environment.getExternalStorageDirectory().getAbsolutePath(), context.getApplicationInfo().packageName);
+                appDir.mkdirs();
+                return appDir.getAbsolutePath();
+            } else {
+                return null;
+            }
         }
     }
 }
